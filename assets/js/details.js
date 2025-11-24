@@ -1,6 +1,6 @@
 // ARQUIVO: frontend/web/assets/js/details.js (CORRIGIDO E REFATORADO)
 
-const API_BASE_URL = 'https://fiscally-untasting-janel.ngrok-free.dev -> http://localhost:3000/api';
+const API_BASE_URL = 'https://fiscally-untasting-janel.ngrok-free.dev/api';
 
 async function loadItemDetails() {
     const urlParams = new URLSearchParams(window.location.search);
@@ -98,5 +98,6 @@ function displayError(msg) {
     document.getElementById('error-message').textContent = msg;
     document.getElementById('error-message').style.display = 'block';
 }
+
 
 document.addEventListener('DOMContentLoaded', loadItemDetails);

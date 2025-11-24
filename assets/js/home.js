@@ -1,6 +1,6 @@
 // ARQUIVO: frontend/web/assets/js/home.js (REFATORADO)
 
-const API_BASE_URL = 'http://localhost:3000/api';
+const API_BASE_URL = 'https://fiscally-untasting-janel.ngrok-free.dev -> http://localhost:3000/api';
 
 let allDonations = []; // Armazena todas as doações para filtro
 

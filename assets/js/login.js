@@ -6,7 +6,7 @@ document.getElementById('login-form').addEventListener('submit', async function(
     const messageElement = document.getElementById('message');
 
     // URL da API de Login
-    const API_URL = 'http://localhost:3000/api/auth/login'; 
+    const API_URL = 'https://fiscally-untasting-janel.ngrok-free.dev -> http://localhost:3000/api/auth/login'; 
 
     try {
         const response = await fetch(API_URL, {

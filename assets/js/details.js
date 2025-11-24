@@ -1,6 +1,6 @@
 // ARQUIVO: frontend/web/assets/js/details.js (CORRIGIDO E REFATORADO)
 
-const API_BASE_URL = 'http://localhost:3000/api';
+const API_BASE_URL = 'https://fiscally-untasting-janel.ngrok-free.dev -> http://localhost:3000/api';
 
 async function loadItemDetails() {
     const urlParams = new URLSearchParams(window.location.search);

@@ -1,6 +1,6 @@
 // ARQUIVO: frontend/web/assets/js/profile.js (OTIMIZADO)
 
-const API_BASE_URL = 'http://localhost:3000/api';
+const API_BASE_URL = 'https://fiscally-untasting-janel.ngrok-free.dev -> http://localhost:3000/api';
 
 /**
  * Função para buscar os dados do usuário e suas doações.

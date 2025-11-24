@@ -1,4 +1,4 @@
-const API_BASE_URL = 'https://fiscally-untasting-janel.ngrok-free.dev -> http://localhost:3000/api';
+const API_BASE_URL = 'https://fiscally-untasting-janel.ngrok-free.dev/api';
 
 document.getElementById('publish-form').addEventListener('submit', async function(event) {
     event.preventDefault();
@@ -66,3 +66,4 @@ document.getElementById('publish-form').addEventListener('submit', async functio
         console.error('Erro na requisição de upload:', error);
     }
 });
+

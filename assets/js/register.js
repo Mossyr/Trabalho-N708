@@ -1,5 +1,5 @@
 // URLs da API (Substituir 'http://localhost:3000' pelo endereço real do backend)
-const API_URL = 'https://fiscally-untasting-janel.ngrok-free.dev -> http://localhost:3000/api/auth/register'; 
+const API_URL = 'https://fiscally-untasting-janel.ngrok-free.dev/api/auth/register'; 
 
 document.getElementById('register-form').addEventListener('submit', async function(event) {
     event.preventDefault(); 
@@ -49,4 +49,5 @@ document.getElementById('register-form').addEventListener('submit', async functi
         messageElement.style.color = 'red';
         console.error('Erro na requisição:', error);
     }
+
 });
